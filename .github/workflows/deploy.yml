@@ -23,7 +23,7 @@ jobs:
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       PORT: 8080
-    services:
+    services: # This is called service containers -> https://docs.github.com/en/actions/using-containerized-services/about-service-containers
       mongodb: #here we can put any label/name
         image: mongo
         ports:
